@@ -7,7 +7,10 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    bussiness:"304、202、各类配件",
+    mobile: "手机:13801929289",
+    tel: "电话:021-64639704"
   },
   //事件处理函数
   bindViewTap: function() {
