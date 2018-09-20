@@ -3,8 +3,31 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: space-between;
-  padding: 200rpx 0;
+  padding: 10rpx 30rpx 0 30rpx;
   box-sizing: border-box;
 } 
+
+@font-face {
+  font-family: 'iconfont';  /* project id 846070 */
+  src: url('//at.alicdn.com/t/font_846070_guyxr585v54.eot');
+  src: url('//at.alicdn.com/t/font_846070_guyxr585v54.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_846070_guyxr585v54.woff') format('woff'),
+  url('//at.alicdn.com/t/font_846070_guyxr585v54.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_846070_guyxr585v54.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before{ content: "\e601"}
+.icon-tel:before{ content: "\e602"}
+.icon-time:before{ content: "\e600"}
+.icon-location:before{ content: "\e603"}
+.icon-pic:before{ content: "\e604"}

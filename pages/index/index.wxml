@@ -1,10 +1,35 @@
 <!--index.wxml-->
 <view class="container">
+  <view class="commpany">
+    <text>{{commpany}}</text>
+  </view>
+  <view class="divLine"></view>
+  <view class="address">
+    <text>{{address}}</text>
+  </view>
+
+  <view class="contact">
+    <view class="storeinfo">
+      <text class="iconfont icon-phone"></text>
+      <text class="contact-mobile">{{mobile}}</text>
+    </view>
+    <view class="storeinfo">
+        <text class="iconfont icon-tel"></text>
+        <text class="contact-tel">{{tel}}</text>
+    </view>
+    <view class="storeinfo">
+        <text class="iconfont icon-time"></text>
+        <text>{{bussinesshours}}</text>
+    </view>
+    <view class="storeinfo">
+        <text class="iconfont icon-pic"></text>
+        <text>{{" 门店照片"}}</text>
+    </view>
+    <view class="pictures">
+      <image class="image_store" style="width: 300px; height: 200px; background-color: #eeeeee;"  src="../../images/1.jpg" mode="scaleToFill"></image>
+    </view>
+  </view>
   <view class="bussiness">
     <text>{{bussiness}}</text>
-  </view>
-  <view class="contact">
-    <text class="contact-mobile">{{mobile}}</text>
-    <text class="contact-tel">{{tel}}</text>
   </view>
 </view>
