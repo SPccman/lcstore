@@ -10,7 +10,7 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     bussiness:"出售各类不锈钢方管圆管及配件",
     mobile: " 13801929289",
-    tel: " 021-64639704",
+    tel: " 64639704",
     bussinesshours:" 7:00-18:00"
   },
   //事件处理函数

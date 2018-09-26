@@ -10,15 +10,24 @@
   display: flex;
   flex-direction: column;
   align-items: left;
-  margin-top:20px;
+  margin-top:5px;
 }
 
 .storeinfo{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 15rpx;
 }
 
-.contact-mobile{
-
+.storeinfo-icon {
+  display: inline-block;
+  margin-left: 5rpx;
 }
-.contact-tel {
 
+.storeinfo-detail {
+  display: inline-block;
+  margin-left: 5rpx;
+  padding: 5rpx 20rpx;
+  border-radius: 10rpx;
 }
